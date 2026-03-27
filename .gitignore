@@ -1,0 +1,31 @@
+# Maven target directory
+/target/
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+logs/
+*.out
+
+# Application properties containing sensitive info
+src/main/resources/application.properties
+src/main/resources/application.yml
+*.env
+*.secret
+.fake
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build output for front-end
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.swp

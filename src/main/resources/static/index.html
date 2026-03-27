@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Planner</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="container">
+        <h1>Tell us your travel preferences</h1>
+        <p class="subtitle">
+            Provide your budget and trip duration, and we will recommend a suitable destination with a breakdown.
+        </p>
+
+        <h3>How many days are you planning your trip?</h3>
+        <input type="number" id="days" placeholder="Ex. 3">
+
+        <h3>What is your budget?</h3>
+        <input type="number" id="budget" placeholder="Enter budget">
+
+        <h3>Who do you plan on traveling with?</h3>
+        <div class="options">
+            <div class="card" onclick="selectOption(this,'group','solo')"><div>Just Me</div></div>
+            <div class="card" onclick="selectOption(this,'group','couple')"><div>A Couple</div></div>
+            <div class="card" onclick="selectOption(this,'group','family')"><div>Family</div></div>
+        </div>
+
+        <button onclick="generateTrip()">Generate Trip</button>
+
+        <div id="result" class="grid"></div>
+    </div>
+</div>
+
+<script src="/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f7fb;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 700px;
+    margin-top: 40px;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+h3 {
+    margin-top: 25px;
+    font-size: 16px;
+}
+
+select, input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.options {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.card {
+    flex: 1;
+    background: #fafafa;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card:hover {
+    border-color: #d1d5db;
+}
+
+.card .icon {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.selected {
+    border-color: #2563eb;
+    background: #eff6ff;
+}
+
+button {
+    margin-top: 30px;
+    width: 100%;
+    padding: 14px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.place {
+    background: #f9fafb;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.place h3 {
+    margin-bottom: 10px;
+}
+
+.place p {
+    font-size: 18px;
+    font-weight: bold;
+}
